@@ -1,0 +1,6 @@
+<div class="speedometer">
+    <div class="speedometer__background" [style.background]="color$ | async"></div>
+    <div class="speedometer__dial" [style.transform]="rotate$ | async"></div>
+</div>
+
+{{ value$ | async }}
