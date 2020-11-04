@@ -1,5 +1,5 @@
 .speedometer {
-    background-image: url(/assets/meter.png);
+    background-image: url(src/assets/meter.png);
     width: 440px;
     height: 440px;
     border-radius: 50%;
@@ -21,7 +21,7 @@
     }
 
     &__dial {
-        background-image: url(/assets/dial.png);
+        background-image: url(src/assets/dial.png);
         width: 56px;
         height: 294px;
 
